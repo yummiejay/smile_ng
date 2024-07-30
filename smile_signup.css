@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(236, 232, 232);
+    
+}
+.container {
+    display: flex;
+    margin-right: 15%;
+    flex-direction: row-reverse;   
+
+}
+img{
+    height: 565px ;
+    width: 100%;
+    border-radius: 40px;
+    object-fit:cover;
+    padding: 20px;
+
+}
+ 
+
+.right-container{
+    padding: 20px;
+    margin: 20px;
+    height: 100%;
+    width: 50%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+
+}
+.logo{
+    color:rgb(57, 46, 46);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.top1{
+    text-align: center;
+}
+.top1 h2{
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+
+.top1 p{
+    margin-bottom: 50px;
+}
+
+.top2_1{
+    line-height: 29px;
+    display: flex;
+    justify-content:space-between;
+}
+.top2_1 input{
+    padding: 15px;
+    width: 100%;
+    border: 1px solid rgb(197, 191, 191);
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.top2_2{
+    line-height: 29px;
+}
+.top2_2 input{
+    padding: 15px;
+    width: 100%;
+    border: 1px solid rgb(197, 191, 191);
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+#country{
+    padding: 23px;
+    width: 100%;
+    border: 1px solid rgb(197, 191, 191);
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+#sector{
+    padding: 23px;
+    width: 100%;
+    border: 1px solid rgb(197, 191, 191);
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+#how{
+    padding: 23px;
+    width: 100%;
+    border: 1px solid rgb(197, 191, 191);
+    border-radius: 10px;
+    background-color: whitesmoke; 
+}
+
+
+
+.top3{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.top3 a{
+    color:rgb(57, 46, 46);
+    font-weight: bold;
+}
+
+button{
+    padding:19px;
+    width: 100%;
+    border: 1px solid rgb(57, 46, 46);
+    border-radius: 10px;
+    background-color: rgb(57, 46, 46);
+    color: white;
+    text-align:center;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer a{
+    color: rgb(57, 46, 46);
+    font-weight: bold;
+    
+}
+span{
+    color:rgb(57, 46, 46);
+    font-weight: bolder;
+}
